@@ -1,5 +1,5 @@
 {% set name = "scrapy-playwright" %}
-{% set version = "0.0.40" %}
+{% set version = "0.0.41" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/scrapy_playwright-{{ version }}.tar.gz
-  sha256: 5372d57254b65b03d6d71a836c32439938c21765ef24db68046050c6aaaea812
+  sha256: 5cdf7f9cf256f0e640d569ba844a082af17cd9123a694be7c38ec33cc9abeb4e
 
 build:
   noarch: python
